@@ -1,11 +1,14 @@
 package com.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
 
 
     }
+
 
     public static void drakeEquation(){
     /*Drake equation
@@ -18,8 +21,11 @@ public class Main {
     fc = 0.1 to 0.2 (10–20% of which will be able to communicate)
     L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,000,000 years)
      */
+    Scanner keyboard
+    keyboard = new Scanner(System.int);
 
-    int N;
+
+        int N;
     int rStar;
     double f_p;
     int numberOfExoplanets;
@@ -27,6 +33,15 @@ public class Main {
     double f_i;
     double f_c;
     int L;
+
+    //todo initialize scanner to take input and commit
+        // Ask for rStar number store in the rStar variable and commit
+        //Complete each one of the variables storing them correctly and commiting each time
+
+
+    keyboard = new scanner(System.int);
+
+
 
     N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L
 
