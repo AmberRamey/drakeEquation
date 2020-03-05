@@ -47,6 +47,9 @@ public class Main {
         System.out.println("What is the number of planets that are capable of supporting life?");
         numberOfExoplanets = Drake.nextInt();
 
+        System.out.println("What is the fraction of those exoplanets where life evolves?");
+        f_l = Drake.nextInt();
+
     N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
 
