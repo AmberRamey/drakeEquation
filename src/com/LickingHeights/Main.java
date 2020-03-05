@@ -21,8 +21,8 @@ public class Main {
     fc = 0.1 to 0.2 (10–20% of which will be able to communicate)
     L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,000,000 years)
      */
-    Scanner keyboard
-    keyboard = new Scanner(System.int);
+    Scanner Drake;
+    Drake = new Scanner(System.in);
 
 
         int N;
@@ -38,16 +38,19 @@ public class Main {
         // Ask for rStar number store in the rStar variable and commit
         //Complete each one of the variables storing them correctly and commiting each time
 
+        System.out.println("What is the rate of star formation in the galaxy" );
+        rStar = Drake.nextInt();
+        
 
-    keyboard = new scanner(System.int);
-
-
-
-    N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L
+    N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
 
     System.out.println("The number of intelligent peces \n" +
                 " that are out there that can communicate with us is:" + N);
+
+
+
+
 
 
     }
