@@ -41,15 +41,16 @@ public class Main {
         System.out.println("What is the rate of star formation in the galaxy" );
         rStar = Drake.nextInt();
 
-        System.out.println("What is the fraction of those stars thats have planets?");
+        System.out.println("What is the fraction of those stars that have planets?");
         f_p = Drake.nextInt();
 
-        
+        System.out.println("What is the number of planets that are capable of supporting life?");
+        numberOfExoplanets = Drake.nextInt();
 
     N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
 
-    System.out.println("The number of intelligent peces \n" +
+    System.out.println("The number of intelligent species \n" +
                 " that are out there that can communicate with us is:" + N);
 
 
