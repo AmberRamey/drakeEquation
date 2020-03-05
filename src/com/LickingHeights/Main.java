@@ -56,6 +56,9 @@ public class Main {
         System.out.println("What is the fraction that develops detectable communications?");
         f_c = Drake.nextInt();
 
+        System.out.println("What is the longevity of communication?");
+        L = Drake.nextInt();
+
     N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
 
