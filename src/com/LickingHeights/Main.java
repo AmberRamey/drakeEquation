@@ -40,6 +40,10 @@ public class Main {
 
         System.out.println("What is the rate of star formation in the galaxy" );
         rStar = Drake.nextInt();
+
+        System.out.println("What is the fraction of those stars thats have planets?");
+        f_p = Drake.nextInt();
+
         
 
     N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
